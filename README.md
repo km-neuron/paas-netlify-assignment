@@ -1,38 +1,35 @@
-# **PaaS Netlify - Assignment**
+# HTML CSS Assignment 3
 
 ## Objectives
-* Memiliki kemampuan dalam melakukan deployment.
-* Mampu mendeploy *static website* ke dalam Netlify.
-* Mampu mendeploy *static website* menggunakan Git.
-* Mampu mengganti *default subdomain* yang diberikan oleh Netlify.
+* Bisa membuat styling halaman web dengan Tailwind CSS.
+* Bisa membuat website responsive dengan Tailwind CSS.
+* Bisa membuat layout Flexbox dengan Tailwind CSS.
+* Bisa membuat styling form dengan Tailwind CSS.
+* Bisa membuat styling HTML element dengan Tailwind CSS.
 
 ## Restrictions
-* Tidak boleh mengerjakan pada repository ini.
-* Tidak melakukan deployment ke Netlify menggunakan Drag and Drop.
+* Wajib menggunakan Tailwind CSS dengan Play CDN.
 
 ## Acceptance criteria
-* Memiliki *custom* subdomain.
-
-## Prerequisite
-Buatlah sebuah *private repository* baru dengan format penamaan **student_name-netlify_assignment** (contoh: dito_bagus-netlify_assignment). Lalu _copy_/salin file pada assignment sebelumnya ke folder repository tersebut.
+* Menggunakan Tailwind CSS untuk section.
+* Menggunakan Tailwind CSS untuk heading.
+* Menggunakan Tailwind CSS untuk komponen yang menggunakan _Flexbox_.
+* Menggunakan Tailwind CSS untuk tampilan layar yang *responsive*, minimal 2 tampilan layar  (Laptop dan Telepon genggam).
+* Menggunakan Tailwind CSS untuk form
 
 ## Directions
-Setelah kalian mampu membuat halaman static website kalian sendiri, sekarang saatnya kalian untuk publish/deploy website kalian ke Netlify. Pada assignment kali ini kalian **WAJIB** melakukan deployment menggunakan Git, selain itu kalian juga diminta untuk mengganti subdoamin yang kalian secara default diberikan oleh Netlify menggunakan nama kalian. Contoh:
-- Default subdomain
-  ```text
-  remarkable-swan-a8d66b.netlify.app
-  ```
-- Custom subdomain
-  ```txt
-  dito-bagus.netlify.app
-  ```
+Ubahlah styling halaman web yang sudah kalian kerjakan pada assignment sebelumnya dengan Tailwind CSS. Simpan _styling_ CSS pada _file_ yang terpisah dengan _file_ HTML kalian. Tampilan halaman web dibebaskan, namun dalam proses pembuatannya kalian tetap diwajibkan menggunakan **Flexbox system** dalam penataan setiap elemennya (_layouting_) dan halaman web yang *responsive*. Dimana untuk *responsive*nya kalian setidaknya wajib memiliki 2 tampilan layar, yaitu laptop dan telepon genggam (_mobile phone_). Berikut aturan _Media Query_ yang disarankan:
+* Telepon genggam: maximum device width 767px
+* Laptop: minimum device width 768px
 
-## Output:
-* *File* HTML
-* *File* CSS (*Optional*)
+> Clue: gunakan breakpoint `md`
 
-## Output yang harus disubmit ke LMS:
-* *Link* Repository
-* *Link* Deployment
-* Hasil *screenshoot* **Deploy log**
-  ![deploy-log](./assets/deploy-log.png)
+## Workspace
+Pengerjaan dilakukain dengan struktur file sebagai berikut:
+| File             | Description                                |
+|------------------|--------------------------------------------|
+| `src/index.html` | File HTML halaman website                  |
+| `src/*.css`      | File *stylesheet external* jika dibutuhkan |
+
+
+> NOTE: `src/*.css` bermakna file dengan ekstensi `.css` tidak diatur penamaannya maupun penempatannya selama file tersebut berada di dalam directory `src`
